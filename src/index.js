@@ -64,6 +64,7 @@ function MyApp() {
       }
   
     try {
+      // eslint-disable-next-line
       let result = eval(revFormula);
       if (typeof result === 'number') {
         result = parseFloat(result.toFixed(10));
